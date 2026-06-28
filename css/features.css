@@ -7,6 +7,10 @@
   gap: 24px;
 }
 
+.feature-card {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .features .card-title,
 .features .card-paragraph {
   text-align: left;
