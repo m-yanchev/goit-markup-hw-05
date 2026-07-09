@@ -5,9 +5,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+*:focus {
+  outline: none;
+}
+
 a {
   color: #434455;
-  text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -32,6 +35,20 @@ h3 {
 img {
   display: block;
   max-width: 100%;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  display: block;
+}
+
+label {
+  display: block;
 }
 
 .container {
@@ -77,6 +94,7 @@ img {
 button {
   cursor: pointer;
   border: none;
+  padding: 0;
 }
 
 .logo {
@@ -87,6 +105,7 @@ button {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo span {
@@ -131,4 +150,27 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   fill: #f4f4fd;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 169px;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
