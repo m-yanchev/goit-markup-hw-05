@@ -455,9 +455,9 @@
         <div class="subscribe">
           <p class="footer-caption">Subscribe</p>
           <form class="subscribe-form">
-            <label for="email"></label>
+            <label for="subscribe-email"></label>
             <input
-              id="email"
+              id="subscribe-email"
               type="email"
               name="email"
               placeholder="E-mail"
@@ -474,7 +474,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div id="modal" class="backdrop">
       <div class="modal">
         <button class="modal-close" type="button">
           <svg class="modal-close-icon">
@@ -529,7 +529,7 @@
             </div>
           </fieldset>
           <fieldset class="modal-agreement-fieldset">
-            <input class="modal-agreement-input sr-only" id="agreement" />
+            <input class="modal-agreement-input sr-only" id="agreement" type="checkbox" />
             <label for="agreement" class="modal-agreement-label">
               <span class="modal-agreement-checkbox">
                 <svg width="10" height="8" class="modal-agreement-check-mark">

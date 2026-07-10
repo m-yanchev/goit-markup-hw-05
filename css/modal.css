@@ -185,8 +185,8 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-agreement-checkbox:hover,
-.modal-agreement-input:focus
+.modal-agreement-checkbox:active,
+.modal-agreement-input:checked
   + .modal-agreement-label
   > .modal-agreement-checkbox {
   border-color: #404bbf;
@@ -199,8 +199,8 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-agreement-checkbox:hover .modal-agreement-check-mark,
-.modal-agreement-input:focus
+.modal-agreement-checkbox:active .modal-agreement-check-mark,
+.modal-agreement-input:checked
   + .modal-agreement-label
   .modal-agreement-check-mark {
   opacity: 1;
